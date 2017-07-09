@@ -6,10 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <title>Bootstrap 101 Template</title>
+
     <!-- Bootstrap -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link href="main.css" rel="stylesheet">
+
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -18,6 +21,7 @@
     <![endif]-->
 	    
 <style>
+
 </style>  
 </head>
 
@@ -358,21 +362,20 @@
 </div>
 </div>
  <div class="container-fluid">
-	 <div class="panel panel-default" >
-	 <div class="panel header" style="border:1px black;">  
-	  <li class="margin" id="alignment" style="color:rgba(0,0,0,0.4);">Trending</li>
-		<li role="presentation" class="margin"><a href="#enter" aria-controls="messages" role="tab" data-toggle="tab"><i style="color:rgba(0,0,0,0.4);" class="fa fa-camera" aria-hidden="true"></i></a></li>
-		 <li role="presentation"class="margin"><a href="#sports" aria-controls="messages" role="tab" data-toggle="tab"><i class="fa fa-futbol-o"  style="color:rgba(0,0,0,0.4);aria-hidden="true"></i></a></li>
-         <li role="presentation" class="margin"><a href="#science" aria-controls="messages" role="tab" data-toggle="tab"><i class="fa fa-flask" style="color:rgba(0,0,0,0.4);" aria-hidden="true"></i></a></li>		
-		 <li role="presentation"class="margin"><a href="#politics" aria-controls="profile" role="tab" data-toggle="tab"><i class="fa fa-bank" aria-hidden="true" style="color:rgba(0,0,0,0.4);"></i></a></li>
-	<li  class="margin"role="presentation" ><a href="#top" aria-controls="home" role="tab" data-toggle="tab"><i class="fa fa-line-chart" aria-hidden="true" style="color:#6666ff;"></i></a>
-	 </li>
-       
-		
-		</div>
+	 <div class="panel panel-default" style="border:0px solid white;" >
+	 <div class="panel header" style="border:0px solid white;">  
+	     <ul class="nav-tabs" style="border:px white;padding:0px;">
+		 <li class="margin" id="alignment" style="color:rgba(0,0,0,0.4);margin-left:8px;">Trending</li>
+		<li role="presentation" class="margin" style="matgin:left:10px;"><a href="#enter"  data-toggle="pill" aria-controls="messages" ><i style="color:rgba(0,0,0,0.4);" class="fa fa-camera" aria-hidden="true"></i></a></li>
+		<li role="presentation"class="margin" style=""><a href="#sports"  data-toggle="pill"aria-controls="messages" ><i class="fa fa-futbol-o" style="color:rgba(0,0,0,0.4);" aria-hidden="true"></i></a></li>
+			<li role="presentation" class="margin" style=""><a href="#science"  data-toggle="pill"aria-controls="messages" ><i class="fa fa-flask" style="color:rgba(0,0,0,0.4);" aria-hidden="true"></i></a></li>
+			 <li role="presentation"class="margin" style=""><a href="#politics"  data-toggle="pill"aria-controls="profile" ><i class="fa fa-bank" aria-hidden="true" style="color:rgba(0,0,0,0.4);"></i></a></li>
+		<li  class="margin"role="presentation"style=""><a href="#top"  data-toggle="pill" aria-controls="home" ><i class="fa fa-line-chart" aria-hidden="true" style="color:#6666ff;"></i></a></li>
+	 </ul>
+	</div>
     <div class="panel-body">
- <div class="tab-content" >
-        <div role="tabpanel" class="tab-pane active" id="top" >
+ <div class="tab-content">
+        <div id="top" class="tab-pane active">
 		<div class="list-group" >
   <a href="#" class="list-group-item "style="border:0px;padding:0px;">
     <h4  style="color:lightblue;"class="list-group-item-heading"><small style="color:#0047b3;">Lionel Messi</small></h4>
@@ -386,9 +389,8 @@
 </p>
   </a>
 </div>
-
 		</div>
-        <div role="tabpanel" class="tab-pane" id="politics">
+        <div  id="politics" class="tab-pane">
 		<div class="list-group">
   <a href="#" class="list-group-item"style="border:0px;padding:0px;">
     <h4  style="color:lightblue;"class="list-group-item-heading"><small style="color:#0047b3;">Aadhar</small></h4>
@@ -402,7 +404,7 @@
   </a>
 </div>
 		</div>
-        <div role="tabpanel" class="tab-pane" id="sports">
+        <div  id="sports" class="tab-pane">
 		<div class="list-group">
   <a href="#" class="list-group-item "style="border:0px;padding:0px;">
     <h4  style="color:lightblue;" class="list-group-item-heading"><small style="color:#0047b3;">Facebook</small></h4>
@@ -410,7 +412,7 @@
   </a>
 </div>
 </div>
-		<div role="tabpanel" class="tab-pane" id="science">
+		<div  id="science" class="tab-pane">
 		<div class="list-group">
   <a href="#" class="list-group-item "style="border:0px;padding:0px;">
     <h4 style="color:lightblue;" class="list-group-item-heading"><small style="color:#0047b3;">Lionel Messi</small></h4>
@@ -425,7 +427,7 @@
   </a>
 </div>
 </div>
-		<div role="tabpanel" class="tab-pane" id="enter">
+		<div  id="enter" class="tab-pane">
 		<div class="list-group">
       <a href="#" class="list-group-item"style="border:0px;padding:0px;">
        <h4 style="color:lightblue;"class="list-group-item-heading"><small style="color:#0047b3;">Azam Khan</small></h4>

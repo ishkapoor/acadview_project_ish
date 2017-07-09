@@ -167,9 +167,11 @@ overflow:auto;
 	margin-left:13px;
 }
 .margin
-{display:inline;
-float:right;
-margin:5px;
+{
+display:inline;
+float:right!important;
+margin:2.5px;
+
 }
 #alignment
 {
